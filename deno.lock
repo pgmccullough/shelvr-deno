@@ -749,5 +749,11 @@
       }
     }
   },
-  "remote": {}
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "npm:react@^18.2.0",
+      "npm:three@0.160.1"
+    ]
+  }
 }

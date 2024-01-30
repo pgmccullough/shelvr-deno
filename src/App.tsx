@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { Header, Hero, Pallet } from './components';
-import { Board } from './types/AppTypes';
+import React, { useState } from 'react'
+import { Header, Hero, Pallet } from './components/index.ts';
+import { Board } from './types/AppTypes.ts';
 
 function App() {
   const [ cutList, setCutList ] = useState<Array<Board>>([])

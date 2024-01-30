@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { FC, memo, useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { Board } from '../../../types/AppTypes';
+import React, { FC, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { Board } from '../../types/AppTypes.ts';
 
 export const Model: FC<Board> = ({ width, height, depth, finish }) => {
   const [textureImage, setTextureImage] = useState<string>('');
